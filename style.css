@@ -1,3 +1,59 @@
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+.background-image-container {
+    background-color: rgb(190, 190, 190);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image-center {
+    background-position: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.cta-section {
+    bottom: 30vh;
+    left: 4vh;
+}
+
+/* Image classes */
+
+.steamTrainAtPlatform {
+    background-image: url("./images/steamTrainAtPlatform.jpg");
+}
+
+.rollingStockExample {
+    background-image: url("./images/rollingStockExample.jpg");
+}
+
+.steamTrainPassingStation {
+    background-image: url("./images/steamTrainPassingStation.jpg");
+}
+
+.guardOnPlatform {
+    background-image: url("./images/guardStoodOnPlatform.jpg");
+}
+
+.hornbyTrain {
+    background-image: url("./images/hornbyTrain.jpg");
+}
+
+.stationOverview {
+    background-image: url("./images/stationOverview.jpg");
+    background-position-y: -30vh;
+}
