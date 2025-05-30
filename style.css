@@ -12,6 +12,11 @@ body, h1, h2, h3, p {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 0;
+}
+
+.header {
+    z-index: 1;
 }
 
 .background-image-center {
@@ -24,6 +29,10 @@ body, h1, h2, h3, p {
 
 .absolute {
     position: absolute;
+}
+
+.fixed {
+    position: fixed;
 }
 
 .cta-section {
