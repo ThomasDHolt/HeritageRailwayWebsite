@@ -2,6 +2,10 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, h1, h2, h3, p {
     margin: 0;
 }
@@ -13,6 +17,14 @@ body, h1, h2, h3, p {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
 }
 
 .header {
