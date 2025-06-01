@@ -50,8 +50,15 @@ footer {
     font-weight: bold;
     border-style: solid;
     border-color: beige;
+    text-shadow: 1px 1px 2px black;
     width: 240px;
     height: 50px;
+}
+
+.sectionButton:hover {
+    background-color: beige;
+    text-shadow: 0px 0px 0px transparent;
+    color: black;
 }
 
 .returnToTopButton {
@@ -67,11 +74,6 @@ footer {
 .returnToTopButton:hover {
     color: beige;
     background-color: black;
-}
-
-.sectionButton:hover {
-    background-color: beige;
-    color: black;
 }
 
 .flex-container {
@@ -100,8 +102,11 @@ footer {
     height: 15vh;
 }
 
+nav {
+    width: 60vh;
+}
+
 .navBarButton {
-    margin: 0px 10px 0px 10px;
     font-size: 20px;
     color: beige;
     text-shadow: 1px 1px 2px black;
@@ -111,6 +116,22 @@ footer {
 .navBarButton:hover {
     color: white;
     font-weight: bold;
+}
+
+.sectionTitle {
+    color: beige;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sectionSummary {
+    color: beige;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    font-size: 60px;
+    margin: 20px 0px 20px 0px;
 }
 
 .background-image-center {
@@ -130,7 +151,7 @@ footer {
 }
 
 .ctaSection {
-    bottom: 30vh;
+    bottom: 15vh;
     left: 4vh;
 }
 
