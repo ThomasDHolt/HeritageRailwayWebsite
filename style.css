@@ -19,6 +19,34 @@ body, h1, h2, h3, p {
     z-index: 0;
 }
 
+.social-media-logo-container {
+    background-color: rgb(190, 190, 190);
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    width: 240px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
 .flex-container {
     display: flex;
 }
@@ -47,34 +75,42 @@ body, h1, h2, h3, p {
     position: fixed;
 }
 
-.cta-section {
+.ctaSection {
     bottom: 30vh;
     left: 4vh;
 }
 
-/* Image classes */
+.copyrightNotice {
+    margin: 20px 0px 20px 0px;
+}
+
+.socialMediaCTA {
+    margin: 20px 0px 20px 0px;
+}
+
+/* Background Image classes */
 
 .steamTrainAtPlatform {
-    background-image: url("./images/steamTrainAtPlatform.jpg");
+    background-image: url("./images/photos/steamTrainAtPlatform.jpg");
 }
 
 .rollingStockExample {
-    background-image: url("./images/rollingStockExample.jpg");
+    background-image: url("./images/photos/rollingStockExample.jpg");
 }
 
 .steamTrainPassingStation {
-    background-image: url("./images/steamTrainPassingStation.jpg");
+    background-image: url("./images/photos/steamTrainPassingStation.jpg");
 }
 
 .guardOnPlatform {
-    background-image: url("./images/guardStoodOnPlatform.jpg");
+    background-image: url("./images/photos/guardStoodOnPlatform.jpg");
 }
 
 .hornbyTrain {
-    background-image: url("./images/hornbyTrain.jpg");
+    background-image: url("./images/photos/hornbyTrain.jpg");
 }
 
 .stationOverview {
-    background-image: url("./images/stationOverview.jpg");
+    background-image: url("./images/photos/stationOverview.jpg");
     background-position-y: -30vh;
 }
